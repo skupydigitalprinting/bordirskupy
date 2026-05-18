@@ -1149,7 +1149,23 @@
         }
       });
     });
-    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18169243507"></script>
+
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'AW-18169243507');
+  <script>
+document.querySelectorAll('a[href*="wa.me"]').forEach(btn => {
+  btn.addEventListener('click', function() {
+    gtag('event', 'conversion', {
+      'send_to': 'AW-18169243507/KmdjCMKGsa8cEPPO4tdD'
+    });
+  });
+});
   
   </script>
 </body>
